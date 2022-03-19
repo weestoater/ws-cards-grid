@@ -20,7 +20,7 @@ One which will accept a data set and allow the user to pass in a config for the 
   {
     c_header: 'data.title',
     c_body_lbl_1: 'Group',
-    c_body_field_1: 'data.group'
+    c_body_fld_1: 'data.group'
     ...
   }
 ```
