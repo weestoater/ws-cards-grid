@@ -1,0 +1,31 @@
+{
+  "name": "ws-cards-grid",
+  "version": "1.0.0",
+  "description": "This project started out of a desire to **NOT** have to use ag-grid. I have absolutely nothing against it - I really like it as a tool - I think it's **REALLY** good at what it's been designed to do. However the users I have in my workplace sometimes look for a design which is little less \"Excel on a webpage\".",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "sass": "node-sass -w sass -o example/css",
+    "start": "browser-sync start 'example' -w", // ToDo:  watch SASS & CSS files
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weestoater/ws-cards-grid.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/weestoater/ws-cards-grid/issues"
+  },
+  "homepage": "https://github.com/weestoater/ws-cards-grid#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  },
+  "dependencies": {
+    "browser-sync": "^2.27.9"
+  }
+}

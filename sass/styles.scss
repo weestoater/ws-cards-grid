@@ -1,0 +1,61 @@
+//--    ws-cards-grid example css
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
+
+body {
+  font: normal normal 100%/175% "Roboto", Arial, Tahoma, san-serif;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-areas: "page";
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 100;
+  border-bottom: 1px dotted #ccc;
+  padding-bottom: 0.5rem;
+  margin-top: 1.5rem;
+}
+
+.page {
+  margin: 0.5rem 10% 2rem;
+  padding: 1rem;
+  grid-area: page;
+  gap: 1rem;
+  border: 1px dashed limegreen;
+  border-radius: 1rem;
+
+  h1 {
+    margin-top: 0;
+  }
+
+  p {
+    margin: 0 0 2.5rem;
+  }
+  a {
+    background: white;
+    color: cornflowerblue;
+    text-decoration: none;
+    border-bottom: 1px dashed cornflowerblue;
+    padding-bottom: 0.25rem;
+
+    &:hover {
+      color: royalblue;
+      border-bottom: 1px solid royalblue;
+    }
+
+    &:focus {
+      padding: 0.25rem;
+      outline: 2px dashed lawngreen !important;
+      border-radius: 0.5rem;
+    }
+  }
+  code {
+    font-size: 1.1rem;
+    font-weight: normal;
+    color: hotpink;
+  }
+}
