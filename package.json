@@ -8,7 +8,7 @@
   },
   "scripts": {
     "sass": "node-sass -w sass -o example/css",
-    "start": "browser-sync start 'example' -w", // ToDo:  watch SASS & CSS files
+    "start": "browser-sync start -s -w", 
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
