@@ -20,7 +20,7 @@ function renderData(data) {
         card += '<img src="' + item.picture.medium + '" alt="" aria-hidden="true" />';
         card += '<address>' + item.location.street.number + '  '  + item.location.street.name + ',<br />';
         card += item.location.city + ',<br />'  + item.location.state + ',<br />' + item.location.country + '.<br />';
-        card += item.location.postcode + '</address>';
+        card += item.location.postcode + '</address><hr />';
         card += '</div>';        
         card += '</div>';
 
