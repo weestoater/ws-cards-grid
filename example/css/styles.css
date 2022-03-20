@@ -68,10 +68,17 @@ h6 {
       border-radius: 0.5rem;
       box-shadow: 0 0.25rem 0.25rem grey; }
       .page .cards .card .card-header {
-        background: #ccc;
+        background: #f7f7f7dd;
+        border-radius: 0.5rem 0.5rem 0 0;
+        border-bottom: 1px solid lightgrey;
         padding: 0.5rem;
         font-size: 1.2rem;
         font-weight: bold; }
+        .page .cards .card .card-header small {
+          float: right;
+          margin-right: 0.5rem;
+          color: teal;
+          font-weight: normal; }
         .page .cards .card .card-header .id {
           border: 1px solid #111;
           border-radius: 50%;

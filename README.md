@@ -28,3 +28,9 @@ One which will accept a data set and allow the user to pass in a config for the 
 This would then generate the card layout and be data would be passed through that... hopefully.
 
 I will also build it using `css-grid`, rather than using a css framework like Bootstrap, etc.
+
+## ToDo
+
+Using localStorage - check to see if a 'config' of fields exists; if so, use that, otherwise - use the 'default'
+
+list out all the fields with check boxes next to them, the form saves the list / array into localStorage and the card-renderer uses that config.
