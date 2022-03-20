@@ -6,7 +6,6 @@ fetch("/example/userlist.json")
 })
 .then(data => {
     users = data.results;
-    console.log('Users length = ' + users.length);
     renderData(users);
 });
 
