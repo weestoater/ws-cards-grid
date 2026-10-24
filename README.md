@@ -28,3 +28,7 @@ One which will accept a data set and allow the user to pass in a config for the 
 This would then generate the card layout and be data would be passed through that... hopefully.
 
 I will also build it using `css-grid`, rather than using a css framework like Bootstrap, etc.
+
+## Local development
+
+Use Node.js 20.19.0 or newer. Install the development dependencies with `yarn install`, then run `yarn sass` to compile Sass as files change and `yarn start` to serve the example with live reload.

@@ -7,9 +7,12 @@
     "example": "example"
   },
   "scripts": {
-    "sass": "node-sass -w sass -o example/css",
-    "start": "browser-sync start -s -w", 
+    "sass": "sass --watch sass:example/css",
+    "start": "browser-sync start --server --startPath example/ --files \"example/**/*\"",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=20.19.0"
   },
   "repository": {
     "type": "git",
@@ -23,9 +26,7 @@
   },
   "homepage": "https://github.com/weestoater/ws-cards-grid#readme",
   "devDependencies": {
-    "node-sass": "^7.0.1"
-  },
-  "dependencies": {
-    "browser-sync": "^2.27.9"
+    "browser-sync": "^3.0.4",
+    "sass": "^1.106.1"
   }
 }
